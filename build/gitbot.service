@@ -1,0 +1,12 @@
+[Unit]
+Description=GitBot Service
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+Restart=always
+TimeoutStartSec=0
+RestartSec=5
+ExecStart=/usr/bin/gitbot -config=/etc/gitbot/gitbot.conf
+[Install]
+WantedBy=multi-user.target
