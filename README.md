@@ -1,6 +1,8 @@
 A gitlab bot used to enforce change control.
 
 [![Build Status](https://travis-ci.org/cosminilie/gitbot.svg?branch=master "Build Status")](https://travis-ci.org/cosminilie/gitbot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cosminilie/gitbot)](https://goreportcard.com/report/github.com/cosminilie/gitbot)
+[![GoDoc](https://godoc.org/github.com/cosminilie/gitbot.?status.svg)](https://godoc.org/github.com/cosminilie/gitbot)
 
 ## Overview
 Supports resetting permissions for groups. Add's lgtm support in merge requests comments based on a predefined list of approvers. 
